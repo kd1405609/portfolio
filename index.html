@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>山田 太郎 | ゲームプランナー志望 ポートフォリオ</title>
+  <meta name="description" content="ゲーム業界を志望する学生のポートフォリオサイト。制作作品・スキル・連絡先をまとめています。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="#top">TARO.YAMADA</a>
+  <nav aria-label="メインメニュー">
+    <ul>
+      <li><a href="#about">自己紹介</a></li>
+      <li><a href="#works">制作作品</a></li>
+      <li><a href="#skills">スキル</a></li>
+      <li><a href="#contact">連絡先</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ===== 自己紹介 ===== -->
+  <section id="about" class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="hero-sub">○○大学 情報学部 3年 / ゲームプランナー志望</p>
+        <h1>山田 太郎</h1>
+        <p class="hero-lead">遊ぶ人の「もう1回！」を設計したい。<br>仕組みを考え、手を動かして形にします。</p>
+        <p class="hero-body">
+          ゲーム制作サークルでチームリーダーを務め、学内ゲームジャムを含め3本のゲームを制作しました。
+          企画書の作成からUnityでの実装、遊んでもらった人の声をもとにした調整まで、一通り経験しています。
+          ここに自己PRを2〜3文で書き換えてください。
+        </p>
+        <a class="btn" href="#works">制作作品を見る</a>
+      </div>
+
+      <aside class="status" aria-label="プロフィール">
+        <div class="status-head">
+          <img class="avatar" src="images/profile.jpg" alt="山田 太郎のプロフィール写真" width="96" height="96">
+          <div>
+            <p class="status-name">TARO</p>
+            <p class="status-class">職業：ゲームプランナー見習い</p>
+          </div>
+        </div>
+        <dl class="status-list">
+          <div><dt>所属</dt><dd>ゲーム制作サークル</dd></div>
+          <div><dt>得意</dt><dd>システム設計 / バランス調整</dd></div>
+          <div><dt>好きな</dt><dd>アクションRPG / ローグライク</dd></div>
+          <div><dt>目標</dt><dd>2028年卒・企画職</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== 制作作品 ===== -->
+  <section id="works" class="section">
+    <div class="wrap">
+      <h2 class="section-title">制作作品</h2>
+      <p class="section-lead">カードの「動画を再生」を押すとプレイ動画が見られます。</p>
+
+      <div class="works-grid">
+
+        <!-- 作品1 -->
+        <article class="work">
+          <img class="work-img" src="images/work1.jpg" alt="作品1「Echo Dungeon」のスクリーンショット" width="640" height="360" loading="lazy">
+          <div class="work-body">
+            <h3>Echo Dungeon</h3>
+            <p class="work-desc">音の反響で敵の位置を探る、2Dローグライクアクション。視界が狭い代わりに「音」を手がかりに進む緊張感を狙いました。</p>
+            <dl class="work-meta">
+              <dt>担当範囲</dt>
+              <dd>企画・レベルデザイン・敵AIの実装（4人チーム）</dd>
+              <dt>使った技術</dt>
+              <dd>
+                <ul class="tags">
+                  <li>Unity</li><li>C#</li><li>Git</li>
+                </ul>
+              </dd>
+            </dl>
+            <div class="video" data-youtube-id="YOUTUBE_ID_1" data-title="Echo Dungeon プレイ動画"></div>
+          </div>
+        </article>
+
+        <!-- 作品2 -->
+        <article class="work">
+          <img class="work-img" src="images/work2.jpg" alt="作品2「Tiny Tamers」のスクリーンショット" width="640" height="360" loading="lazy">
+          <div class="work-body">
+            <h3>Tiny Tamers</h3>
+            <p class="work-desc">小さなモンスターを育てて戦わせるスマホ向けカードバトル。短い時間でも遊べるテンポを重視しました。</p>
+            <dl class="work-meta">
+              <dt>担当範囲</dt>
+              <dd>ゲームシステム設計・UI設計・バランス調整（2人制作）</dd>
+              <dt>使った技術</dt>
+              <dd>
+                <ul class="tags">
+                  <li>Unity</li><li>C#</li><li>Figma</li><li>Excel</li>
+                </ul>
+              </dd>
+            </dl>
+            <div class="video" data-youtube-id="YOUTUBE_ID_2" data-title="Tiny Tamers プレイ動画"></div>
+          </div>
+        </article>
+
+        <!-- 作品3 -->
+        <article class="work">
+          <img class="work-img" src="images/work3.jpg" alt="作品3「Rail Runner」のスクリーンショット" width="640" height="360" loading="lazy">
+          <div class="work-body">
+            <h3>Rail Runner</h3>
+            <p class="work-desc">48時間で作った、レールの上を走り抜けるアクションゲーム。ゲームジャムのテーマ「つながり」を線路で表現しました。</p>
+            <dl class="work-meta">
+              <dt>担当範囲</dt>
+              <dd>プログラム全般・企画（ゲームジャム、3人チーム）</dd>
+              <dt>使った技術</dt>
+              <dd>
+                <ul class="tags">
+                  <li>Godot</li><li>GDScript</li><li>Aseprite</li>
+                </ul>
+              </dd>
+            </dl>
+            <div class="video" data-youtube-id="YOUTUBE_ID_3" data-title="Rail Runner プレイ動画"></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== スキル ===== -->
+  <section id="skills" class="section">
+    <div class="wrap">
+      <h2 class="section-title">スキル</h2>
+      <p class="section-lead">バーの長さは、自分なりの習熟度の目安です。</p>
+
+      <ul class="skills">
+        <li class="skill" style="--level: 80%">
+          <div class="skill-top"><span class="skill-name">Unity / C#</span><span class="skill-note">2年・作品2本で使用</span></div>
+          <div class="bar" role="img" aria-label="習熟度 80%"><span></span></div>
+        </li>
+        <li class="skill" style="--level: 60%">
+          <div class="skill-top"><span class="skill-name">ゲーム企画書・仕様書</span><span class="skill-note">サークルで15本以上作成</span></div>
+          <div class="bar" role="img" aria-label="習熟度 60%"><span></span></div>
+        </li>
+        <li class="skill" style="--level: 55%">
+          <div class="skill-top"><span class="skill-name">Godot / GDScript</span><span class="skill-note">ゲームジャムで使用</span></div>
+          <div class="bar" role="img" aria-label="習熟度 55%"><span></span></div>
+        </li>
+        <li class="skill" style="--level: 45%">
+          <div class="skill-top"><span class="skill-name">Figma / UIデザイン</span><span class="skill-note">画面遷移図とモックを作成</span></div>
+          <div class="bar" role="img" aria-label="習熟度 45%"><span></span></div>
+        </li>
+        <li class="skill" style="--level: 40%">
+          <div class="skill-top"><span class="skill-name">Git / チーム開発</span><span class="skill-note">ブランチ運用の経験あり</span></div>
+          <div class="bar" role="img" aria-label="習熟度 40%"><span></span></div>
+        </li>
+      </ul>
+
+      <p class="extra">資格・その他：基本情報技術者試験（取得予定） / TOEIC 700点</p>
+    </div>
+  </section>
+
+  <!-- ===== 連絡先 ===== -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <h2 class="section-title">連絡先</h2>
+      <p class="section-lead">インターンや選考のご連絡は、メールでお願いします。</p>
+
+      <ul class="contact-list">
+        <li><span class="c-label">メール</span><a href="mailto:taro.yamada@example.com">taro.yamada@example.com</a></li>
+        <li><span class="c-label">GitHub</span><a href="https://github.com/your-id" target="_blank" rel="noopener">github.com/your-id</a></li>
+        <li><span class="c-label">X</span><a href="https://x.com/your-id" target="_blank" rel="noopener">@your-id</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Taro Yamada</p>
+  <a href="#top">ページの先頭へ</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
